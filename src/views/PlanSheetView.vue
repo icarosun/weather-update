@@ -1,10 +1,9 @@
-<script setup lang="ts">
+<script lang="ts" setup>
+import ExcelForm from "../components/ExcelForm.vue";
 </script>
 
 <template>
-  <main>
-    <b-container>
-      <b-button variant="primary">Botão BootstrapVue</b-button>
-    </b-container>
-  </main>
+  <ExcelForm />
 </template>
+
+<style scoped></style>
